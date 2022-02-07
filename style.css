@@ -1,0 +1,95 @@
+body
+{
+    max-width: 90%;
+    margin: 0 auto;  
+    background: linear-gradient(-180deg, rgb(191, 165, 52), rgb(221, 201, 181));
+    background-image: url("https://marmotamaps.com/de/fx/wallpaper/download/faszinationen/Marmotamaps_Wallpaper_Berchtesgaden_Desktop_1920x1080.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: cover;
+}
+
+header h1
+{
+    background-color: yellow;
+}
+
+p 
+{
+    font-family: serif;
+    word-spacing: 5px;
+    font-size: normal;
+}
+
+a 
+{
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover
+{
+    background-color: chocolate;
+}
+
+a:visited
+{
+    color: darkgoldenrod;
+}
+
+q
+{    
+    width: 50%;
+    font-size: 160%;
+    margin: 400px;
+    background-color:rgb(199, 197, 197);
+    border-left: 3px solid firebrick;
+    padding-left: 30px;
+}
+
+span[class~="good"], span[class~="bad"]
+{
+    text-transform: capitalize;
+}
+
+span[class~="good"]
+{
+    color:green;
+}
+
+span[class~="bad"]
+{
+    color:red;
+}
+
+
+/* CLASS */
+
+figure.quote
+{
+    margin: 80px 0;
+    font-style: italic;
+}
+
+.img1
+{
+    max-width: 75%;
+}
+
+.villagersQuote
+{
+    border-left: 3px solid rgb(34, 4, 139);
+}
+
+.farmerQuote
+{
+    border-left: 3px solid rgb(17, 221, 17);
+}
+
+.farmerQuote, .villagersQuote
+{
+    font-style: italic;
+}
+
+
+/* ID */
