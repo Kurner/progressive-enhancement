@@ -1,5 +1,6 @@
 body
 {
+    font-family:'Open Sans', sans-serif;
     max-width: 90%;
     margin: 0 auto;  
     background: linear-gradient(-180deg, rgb(191, 165, 52), rgb(221, 201, 181));
@@ -47,6 +48,12 @@ q
     padding-left: 30px;
 }
 
+ul:first-child
+{
+    background-image: url(bien.png);
+    padding-right: 50px;
+}
+
 span[class~="good"], span[class~="bad"]
 {
     text-transform: capitalize;
@@ -64,6 +71,12 @@ span[class~="bad"]
 
 
 /* CLASS */
+
+.img3
+{
+    float: right;
+    padding-left: 20px;
+}
 
 figure.quote
 {
